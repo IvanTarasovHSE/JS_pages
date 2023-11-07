@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body background="../images/1.png">
+
+<table width="600px" border="1" cellspacing="1" cellpadding="5" align="center" bgcolor="white">
+    <tr>
+        <td align="center"><a id="start"><h1>Форма для сбора информации</h1></a></td>
+    </tr>
+    <tr>
+    <td>Ссылки на все страницы сайта
+            <ul>
+                <li><a href="./site.html">Главная страница</a></li>
+                <li><a href="./site.html" target="_self"><img height="40px" src="../images/1.png"></a></li>
+                <li><a href="./characters.html">Главные герои</a></li>
+                <li><a href="./map.html">Карта вселенной смешариков</a></li>
+                <li><a href="./form1.html">Опрос о Смешариках</a></li>
+                <li><a href="./form2.html"><b>Сбор информации</b></a></li>
+                Информация взята с
+            <li><a href="https://losyash-library.fandom.com/ru/wiki/Смешарики">этой страницы</a></li>
+
+            </ul>
+    </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+                <p>Фамилия: <input name="last_name" size=20 type="Text" value="Петров"></p>
+                <p>Возраст: <input name="age" size=20 type="Number" value="0"></p>
+                <p>Мобильный телефон: <input type="Number" name="tel" size=20 value="89999999999"></p>
+                <p>Электронная почта": <input type="text" name="email" size=20 value="petrov@gmail.com"></p>
+                <p>Дата отправки сообщения: <input type="date" name="user_date" value='2000-01-01'></p>
+
+
+
+
+                <input name="function" type="hidden" value="page">
+                <input name="page_id" type="hidden" value="3">
+
+                <p>
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="submit" type="Submit" value="Отправить">
+                </p>
+
+
+        </td>
+    </tr>
+</table>
+</body>
+<script src="./js/abc.js"></script>
+</html>
